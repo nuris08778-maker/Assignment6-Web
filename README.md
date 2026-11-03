@@ -1,10 +1,10 @@
 # Assignment 6. jQuery (Selectors, Effects, Animations)
 
-**Name:** Your Name
-**Group:** Your Group
+**Name:** Nursultan Nurislam
+**Group:** SE - 2538
 
-**GitHub repository:** https://github.com/your-username/your-repository
-**GitHub Pages:** https://your-username.github.io/your-repository/
+**GitHub repository:** [https://github.com/your-username/your-repository](https://github.com/nuris08778-maker)
+
 
 ## Project Structure
 
