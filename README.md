@@ -29,7 +29,8 @@ README.md
 
 jQuery 3.7.1 is loaded from the official CDN before my own script. Inside `$(document).ready()` the message "jQuery is ready!" is printed to the console. The same message is also shown on the page in a small label.
 
-![Task 0](screenshots/task0-setup.png)
+<img width="1413" height="557" alt="image" src="https://github.com/user-attachments/assets/8e204e60-c481-416c-8bc2-b004f84e5dad" />
+
 
 ### Task 1. Selectors & CSS
 
@@ -50,11 +51,13 @@ The header shows my name, headline and introduction. The "Welcome to My Portfoli
 
 Light version after clicking "Change Headline", "Change Greeting" and "Style My Name":
 
-![Task 1 light](screenshots/task1-selectors-light.png)
+<img width="1415" height="825" alt="image" src="https://github.com/user-attachments/assets/22e471a1-fff9-43a8-9f90-5e9f4c18a3db" />
+
 
 Dark theme:
 
-![Task 1 dark](screenshots/task1-theme-dark.png)
+<img width="1405" height="826" alt="image" src="https://github.com/user-attachments/assets/7cdf646d-7a00-4955-a0d4-69894d24563d" />
+
 
 ---
 
@@ -72,15 +75,16 @@ The About Me section has a biography, the status message and a list of fun facts
 
 Before:
 
-![Task 2 visible](screenshots/task2-about-visible.png)
+<img width="1398" height="551" alt="image" src="https://github.com/user-attachments/assets/093c1b4d-6c74-4388-b91e-bf53614f1cb7" />
+
 
 After clicking Hide:
 
-![Task 2 hidden](screenshots/task2-about-hidden.png)
+<img width="1412" height="336" alt="image" src="https://github.com/user-attachments/assets/fcb67418-8d67-4ef2-b838-514605d58962" />
 
 After clicking Toggle:
 
-![Task 2 toggled](screenshots/task2-about-toggled.png)
+<img width="1410" height="549" alt="image" src="https://github.com/user-attachments/assets/8081bcf1-65b3-460b-bd00-80af14a0549d" />
 
 ### Task 3. Fade Methods
 
@@ -91,11 +95,11 @@ The gallery has four images: profile picture, favorite hobby, travel photo and p
 
 Before:
 
-![Task 3 visible](screenshots/task3-gallery-visible.png)
+<img width="1405" height="530" alt="image" src="https://github.com/user-attachments/assets/62beb6f4-f78e-470b-944c-e5fd75c5e0fe" />
 
 After clicking Fade Out:
 
-![Task 3 faded out](screenshots/task3-gallery-faded-out.png)
+<img width="1418" height="548" alt="image" src="https://github.com/user-attachments/assets/e8857ca9-625e-4eb3-be85-c36c41affa75" />
 
 ### Task 4. Slide Methods
 
@@ -107,15 +111,15 @@ There are three clickable headings with a panel under each one. A click on a hea
 
 All panels closed:
 
-![Task 4 closed](screenshots/task4-favorites-closed.png)
+<img width="1408" height="495" alt="image" src="https://github.com/user-attachments/assets/b1a08f0e-5d69-4b40-b426-9d4276ef4819" />
 
 Two panels opened by clicking the headings:
 
-![Task 4 open](screenshots/task4-favorites-open.png)
+<img width="1408" height="562" alt="image" src="https://github.com/user-attachments/assets/4f60ad0f-00ce-4962-ab42-2d11fd0eeaaa" />
 
 All panels opened with "Open All":
 
-![Task 4 all open](screenshots/task4-favorites-all-open.png)
+<img width="1410" height="709" alt="image" src="https://github.com/user-attachments/assets/13fbf5e5-f1de-459c-a52f-265635cf70c5" />
 
 ---
 
@@ -133,19 +137,19 @@ The initial list has five skills. The input and three buttons work with `.append
 
 Initial list:
 
-![Task 5 initial](screenshots/task5-skills-initial.png)
+<img width="1409" height="379" alt="image" src="https://github.com/user-attachments/assets/27ba7e11-1bc3-4420-80c1-7957494b3b9f" />
 
 Empty input validation:
 
-![Task 5 validation](screenshots/task5-empty-validation.png)
+<img width="1409" height="423" alt="image" src="https://github.com/user-attachments/assets/3d1747cd-ebb8-4479-9879-e1f023a2a733" />
 
 After adding "React" (append) and "TypeScript" (prepend):
 
-![Task 5 added](screenshots/task5-skills-added.png)
+<img width="1409" height="423" alt="image" src="https://github.com/user-attachments/assets/4d943176-8034-4e07-bee1-3932c01f8fe3" />
 
 After clicking Remove Skill:
 
-![Task 5 removed](screenshots/task5-skills-removed.png)
+<img width="1393" height="320" alt="image" src="https://github.com/user-attachments/assets/77410b0a-4a65-401d-b51b-3618071077a4" />
 
 ### Task 6. Modifying Attributes
 
@@ -156,11 +160,11 @@ The page has a GitHub link. The "Change Link" button uses `.attr()` to change th
 
 Before:
 
-![Task 6 before](screenshots/task6-link-before.png)
+<img width="1393" height="330" alt="image" src="https://github.com/user-attachments/assets/37a6c7c5-08b3-412a-8653-10c30045bc23" />
 
 After clicking Change Link:
 
-![Task 6 after](screenshots/task6-link-after.png)
+<img width="1431" height="887" alt="image" src="https://github.com/user-attachments/assets/6412bd91-a3b1-4850-a8a7-e231a128a96a" />
 
 ### Task 7. Form Interaction
 
@@ -169,7 +173,7 @@ After clicking Change Link:
 
 The form has Name and Email inputs. On every keystroke the `input` event reads the value with `.val()` and shows it below the form with `.text()`.
 
-![Task 7](screenshots/task7-form-live.png)
+<img width="1387" height="511" alt="image" src="https://github.com/user-attachments/assets/3ab966df-09f3-433b-acf2-f43258be7647" />
 
 ---
 
@@ -188,19 +192,18 @@ Skill bars are built from the skill list of Task 5, so every new skill gets its 
 
 Initial state (zero width):
 
-![Task 8 zero](screenshots/task8-bars-zero.png)
+<img width="1339" height="637" alt="image" src="https://github.com/user-attachments/assets/fb89ebe2-5e9d-4acb-b8b2-c3fc7508d314" />
 
 During the animation:
 
-![Task 8 animating](screenshots/task8-bars-animating.png)
+<img width="1393" height="634" alt="image" src="https://github.com/user-attachments/assets/25c4f1b3-678e-40af-9bb5-01d51d29469d" />
 
 After the animation:
 
-![Task 8 full](screenshots/task8-bars-full.png)
+<img width="1393" height="634" alt="image" src="https://github.com/user-attachments/assets/ae14994d-5319-438d-80a2-54b82c53411a" />
 
 After the second click:
 
-![Task 8 reset](screenshots/task8-bars-reset.png)
 
 ---
 
