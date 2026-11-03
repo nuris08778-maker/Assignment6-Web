@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My jQuery Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#top">Home</a>
+  <a href="#profile">Profile</a>
+  <a href="#about">About</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#favorites">Favorites</a>
+  <a href="#skills">Skills</a>
+  <a href="#link">Link</a>
+  <a href="#form">Form</a>
+  <a href="#animation">Animation</a>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-text">
+    <p id="greeting">Hello, I am</p>
+    <h1 id="name">Your Name</h1>
+    <p class="headline" id="headline">Aspiring Front-End Developer</p>
+    <p id="intro">I am a student at Astana IT University. I enjoy building clean and interactive web pages, and right now I am exploring the power of jQuery.</p>
+    <span class="chip" id="readyChip">Task 0: jQuery is loading...</span>
+  </div>
+  <img class="avatar" src="images/profile.svg" alt="Profile picture">
+</header>
+
+<main>
+
+  <section class="card" id="profile">
+    <div class="title-row">
+      <span class="badge">Task 1</span>
+      <h2 class="section-title">Welcome to My Portfolio</h2>
+    </div>
+    <p class="muted">Use the buttons to change the text, the styling and the theme of the page.</p>
+    <div class="buttons">
+      <button id="headlineBtn">Change Headline</button>
+      <button id="greetingBtn">Change Greeting</button>
+      <button id="styleBtn">Style My Name</button>
+      <button id="lightBtn" class="ghost">Light Theme</button>
+      <button id="darkBtn" class="ghost">Dark Theme</button>
+    </div>
+  </section>
+
+  <section class="card" id="about">
+    <div class="title-row">
+      <span class="badge">Task 2</span>
+      <h2 class="section-title">About Me</h2>
+    </div>
+    <p>I am a second-year student who loves technology and web design. I like turning ideas into small projects and learning something new every week.</p>
+    <p id="status" class="status">Currently learning jQuery!</p>
+    <ul id="facts" class="facts">
+      <li>I enjoy solving logic puzzles and coding challenges.</li>
+      <li>My goal is to become a full-stack developer.</li>
+      <li>I like listening to music while I code.</li>
+      <li>I dream of traveling and working remotely one day.</li>
+    </ul>
+    <div class="buttons">
+      <button id="hideBtn">Hide</button>
+      <button id="showBtn">Show</button>
+      <button id="toggleBtn">Toggle</button>
+    </div>
+  </section>
+
+  <section class="card" id="gallery">
+    <div class="title-row">
+      <span class="badge">Task 3</span>
+      <h2 class="section-title">My Gallery</h2>
+    </div>
+    <p class="muted">Click a picture or use the buttons to fade the images.</p>
+    <div class="gallery">
+      <figure class="photo">
+        <div class="frame"><img src="images/profile.svg" alt="My profile picture"></div>
+        <figcaption>Profile picture</figcaption>
+      </figure>
+      <figure class="photo">
+        <div class="frame"><img src="images/hobby.svg" alt="My favorite hobby"></div>
+        <figcaption>Favorite hobby: coding</figcaption>
+      </figure>
+      <figure class="photo">
+        <div class="frame"><img src="images/travel.svg" alt="Travel photo"></div>
+        <figcaption>Travel: mountains</figcaption>
+      </figure>
+      <figure class="photo">
+        <div class="frame"><img src="images/project.svg" alt="Personal project"></div>
+        <figcaption>Personal project</figcaption>
+      </figure>
+    </div>
+    <div class="buttons">
+      <button id="fadeOutBtn">Fade Out</button>
+      <button id="fadeInBtn">Fade In</button>
+      <button id="fadeToggleBtn">Fade Toggle</button>
+    </div>
+  </section>
+
+  <section class="card" id="favorites">
+    <div class="title-row">
+      <span class="badge">Task 4</span>
+      <h2 class="section-title">My Favorites</h2>
+    </div>
+    <div class="accordion">
+      <h3 class="accordion-head">My Favorite Music</h3>
+      <div class="panel">
+        <p>I like lo-fi, pop and electronic music. It helps me focus while I write code and study for exams.</p>
+      </div>
+      <h3 class="accordion-head">My Favorite Movie</h3>
+      <div class="panel">
+        <p>Interstellar. I love the story, the soundtrack and the way it makes science feel exciting.</p>
+      </div>
+      <h3 class="accordion-head">My Favorite Subject</h3>
+      <div class="panel">
+        <p>Web Technologies. It is the subject where I can see the result of my work right in the browser.</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="openAllBtn">Open All</button>
+      <button id="closeAllBtn">Close All</button>
+    </div>
+  </section>
+
+  <section class="card" id="skills">
+    <div class="title-row">
+      <span class="badge">Task 5</span>
+      <h2 class="section-title">My Technical Skills</h2>
+    </div>
+    <ul id="skillList" class="skill-list">
+      <li data-level="90">HTML5</li>
+      <li data-level="85">CSS3</li>
+      <li data-level="75">JavaScript</li>
+      <li data-level="60">jQuery</li>
+      <li data-level="70">Git</li>
+    </ul>
+    <input type="text" id="skillInput" placeholder="Enter a new skill">
+    <p id="skillMessage" class="error"></p>
+    <div class="buttons">
+      <button id="addSkillBtn">Add Skill</button>
+      <button id="prependSkillBtn">Prepend Skill</button>
+      <button id="removeSkillBtn" class="danger">Remove Skill</button>
+    </div>
+  </section>
+
+  <section class="card" id="link">
+    <div class="title-row">
+      <span class="badge">Task 6</span>
+      <h2 class="section-title">Find Me Online</h2>
+    </div>
+    <p>My profile: <a id="socialLink" href="https://github.com/nuris08778-maker" target="_blank" title="https://github.com/nuris08778-maker">GitHub</a></p>
+    <p class="muted">Current link: <span id="linkUrl">https://github.com</span></p>
+    <div class="buttons">
+      <button id="linkBtn">Change Link</button>
+    </div>
+  </section>
+
+  <section class="card" id="form">
+    <div class="title-row">
+      <span class="badge">Task 7</span>
+      <h2 class="section-title">Contact Form</h2>
+    </div>
+    <form id="liveForm">
+      <label for="nameInput">Name</label>
+      <input type="text" id="nameInput" placeholder="Enter your name">
+      <label for="emailInput">Email</label>
+      <input type="text" id="emailInput" placeholder="Enter your email">
+    </form>
+    <div class="result-box">
+      <p>Name: <strong id="outName">...</strong></p>
+      <p>Email: <strong id="outEmail">...</strong></p>
+    </div>
+  </section>
+
+  <section class="card" id="animation">
+    <div class="title-row">
+      <span class="badge">Task 8</span>
+      <h2 class="section-title">Skill Bars</h2>
+    </div>
+    <div id="skillBars"></div>
+    <div class="buttons">
+      <button id="animateBtn">Animate My Skills</button>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Your Name | Assignment 6 | jQuery</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="90" cy="80" r="70" fill="#ffffff" opacity="0.10"/>
+  <circle cx="520" cy="330" r="110" fill="#ffffff" opacity="0.10"/>
+  <path d="M170 400 C170 310 230 280 300 280 C370 280 430 310 430 400 Z" fill="url(#shirt)"/>
+  <rect x="270" y="240" width="60" height="55" rx="20" fill="#f5c9a5"/>
+  <circle cx="300" cy="190" r="72" fill="#f9d7b8"/>
+  <path d="M228 185 C225 115 280 100 310 105 C355 108 380 140 372 185 C360 150 330 140 300 142 C270 144 242 155 228 185 Z" fill="#2b2118"/>
+  <circle cx="275" cy="195" r="7" fill="#2b2118"/>
+  <circle cx="325" cy="195" r="7" fill="#2b2118"/>
+  <path d="M280 225 Q300 242 320 225" stroke="#b45f4d" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="70" y="200" font-family="monospace" font-size="70" font-weight="bold" fill="#ffffff" opacity="0.85">&lt;/&gt;</text>
+  <text x="450" y="150" font-family="monospace" font-size="60" font-weight="bold" fill="#ffffff" opacity="0.7">{ }</text>
+</svg>
